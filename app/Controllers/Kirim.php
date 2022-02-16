@@ -2,14 +2,14 @@
 
 namespace App\Controllers;
 
-class Home extends BaseController
+class Kirim extends BaseController
 {
     public function index()
     {
         $data = [
-            'judul' => 'Home'
+            'judul' => 'Kirim'
         ];
 
-        return view('home', $data);
+        return view('kirim/index', $data);
     }
 }

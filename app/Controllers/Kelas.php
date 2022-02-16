@@ -2,14 +2,14 @@
 
 namespace App\Controllers;
 
-class Home extends BaseController
+class Kelas extends BaseController
 {
     public function index()
     {
         $data = [
-            'judul' => 'Home'
+            'judul' => 'Kelas'
         ];
 
-        return view('home', $data);
+        return view('kelas/index', $data);
     }
 }
