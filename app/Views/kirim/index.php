@@ -5,7 +5,7 @@
     <div class="row">
 
         <div class="col">
-            <h2>Ini halaman KIRIM kelas method index</h2>
+            <p class="judulku">Ini halaman KIRIM kelas method index</p>
 
         </div>
     </div>
