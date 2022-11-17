@@ -12,4 +12,8 @@ class Kelas extends BaseController
 
         return view('kelas/index', $data);
     }
+
+    public function pasis()
+    {
+    }
 }
